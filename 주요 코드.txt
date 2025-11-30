@@ -1,0 +1,13 @@
+altitude = 44330.77 * (1.0 - pow(avgPressure / initialPressure, 0.190263));
+이걸로 고도를 뽑고
+
+float error = targetAltitude - altitude;
+  integral += error * 0.1;
+  float output = Kp * error + Ki * integral;
+  lastError = error;
+이걸로 pi 컨트롤을 통해 
+
+throttleValue = constrain(baseThrottle + (int)output, 0, 180);
+out put에서 나오는 것이 즉 현재 고도와 목표 고도간의 차를 0으로 만들기 위해 스로틀에서 빼기도 하고 더하기도함
+
+근데 1/s^2를 제어기에 꼭 넣어야한다고 한다. 씁 교수님께 질문
