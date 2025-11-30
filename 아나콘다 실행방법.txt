@@ -1,0 +1,5 @@
+conda activate control_final
+cd C:\Users\jaeon\Documents\충남대학교\전기공학과\4학년 2학기\캡스톤디자인 2\아두이노 코드
+python root_locus_plot_1.py
+
+순서대로 하면 실행됨
