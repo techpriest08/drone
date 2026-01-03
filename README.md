@@ -10,8 +10,11 @@ After measuring the height using a barometric pressure sensor, the PWM duty was 
 The reason for the failure was that the purchased dual ESC motor driver was not controlled individually but was controlled by receiving only one PWM signal.
 If you're going to do a similar experiment, I highly recommend purchasing a separate ESC motor driver. It may be my fault, but sometimes the low-speed ones come bundled with the MCU.
 
+project yourube channel - https://www.youtube.com/channel/UCNLjtRVOfbbqnRbJPocuFEQ
+
 I will also add what parts purchased in the future.
-last update at 2025/12/01
+2025/12/01 - update all code
+2026/01/03 - add project youtube channel
 
 When measuring height using air pressure, use this site and provide citations to the site.
 https://ncar.github.io/aircraft_ProcessingAlgorithms/
